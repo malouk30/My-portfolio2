@@ -534,6 +534,9 @@ section {
 }
 
 @media (max-width: 768px) {
+    .hero-section {
+        background: var(--secondary);
+    }
     :root {
         --spacing: 3rem;
     }
