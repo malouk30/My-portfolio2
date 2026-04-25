@@ -543,6 +543,21 @@ section {
     body {
         font-size: 1rem;
     }
+        body {
+            background: var(--secondary);
+        }
+        .main-nav {
+            background: var(--secondary);
+        }
+        .footer-section {
+            background: var(--secondary);
+            color: var(--dark);
+        }
+        .footer-logo {
+            -webkit-text-fill-color: var(--dark);
+            background: none;
+            color: var(--dark);
+        }
     .main-nav {
         position: static;
         box-shadow: none;
