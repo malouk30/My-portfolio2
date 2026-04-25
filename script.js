@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     });
-
+/******************************************************************/
     // Effet de parallaxe pour le header
     window.addEventListener('scroll', () => {
         const parallax = document.querySelector('.header-parallax');
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.project-card').forEach((card) => {
         observer.observe(card);
     });
-
+/******************************************************************/
     // Gestion du formulaire de contact
     const form = document.getElementById('contact-form');
     form.addEventListener('submit', (e) => {
