@@ -551,12 +551,12 @@ section {
         }
         .footer-section {
             background: var(--secondary);
-            color: var(--dark);
+            color: var(--light);
         }
         .footer-logo {
-            -webkit-text-fill-color: var(--dark);
+            -webkit-text-fill-color: var(--light);
             background: none;
-            color: var(--dark);
+            color: var(--light);
         }
     .main-nav {
         position: static;
